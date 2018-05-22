@@ -13,15 +13,22 @@
 #include "Design_Patterns/Builder.h"
 #include "Design_Patterns/Singleton.h"
 
+#include "Design_Patterns/Adapter.h"
+
 using namespace std;
 
 int main() {
 
 	// Creational Design Patterns
+	//----------------------------
 	//Abstract_Factory_Example();
 	//FactoryMethodExample();
 	//BuilderExample();
-	SingletonExample();
+	//SingletonExample();
+
+	// Structural Design Patterns
+	//----------------------------
+	AdapterExample();
 
 
 	cout << "Done" << endl;
