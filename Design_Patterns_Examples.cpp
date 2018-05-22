@@ -11,6 +11,7 @@
 #include "Design_Patterns/AbstractFactory.h"
 #include "Design_Patterns/FactoryMethod.h"
 #include "Design_Patterns/Builder.h"
+#include "Design_Patterns/Singleton.h"
 
 using namespace std;
 
@@ -19,8 +20,8 @@ int main() {
 	// Creational Design Patterns
 	//Abstract_Factory_Example();
 	//FactoryMethodExample();
-	BuilderExample();
-
+	//BuilderExample();
+	SingletonExample();
 
 
 	cout << "Done" << endl;
