@@ -35,8 +35,8 @@ Wire Socket::PE() {
 	return 0;
 }
 
-void Adapter::plugIn(BritishSocket* socket) {
-	uk_socket = socket;
+void Adapter::plugIn(BritishSocket* adaptee_class) {
+	uk_socket = adaptee_class;
 }
 
 int Adapter::voltage() {
@@ -55,8 +55,8 @@ Wire Adapter::PE() {
 	return uk_socket->N();
 }
 
-void BatteryCharger::plugIn(EuropeanSocket* socket) {
-	eu_socket = socket;
+void BatteryCharger::plugIn(EuropeanSocket* adapter) {
+	eu_socket = adapter;
 }
 
 void BatteryCharger::charge() {

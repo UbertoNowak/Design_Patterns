@@ -14,6 +14,7 @@
 #include "Design_Patterns/Singleton.h"
 
 #include "Design_Patterns/Adapter.h"
+#include "Design_Patterns/Composite.h"
 
 using namespace std;
 
@@ -28,7 +29,8 @@ int main() {
 
 	// Structural Design Patterns
 	//----------------------------
-	AdapterExample();
+	//AdapterExample();
+	CompositeExample();
 
 
 	cout << "Done" << endl;

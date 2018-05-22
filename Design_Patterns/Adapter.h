@@ -45,7 +45,7 @@ class Adapter : public EuropeanSocket{
 	BritishSocket* uk_socket;
 
 public:
-	void plugIn(BritishSocket* socket);
+	void plugIn(BritishSocket* adaptee_class);
 	int voltage();	// 230
 	Wire L();		// UK->L
 	Wire N();		// UK->N
@@ -59,7 +59,7 @@ class BatteryCharger{
 	EuropeanSocket* eu_socket;
 
 public:
-	void plugIn(EuropeanSocket* socket);
+	void plugIn(EuropeanSocket* adapter);
 	void charge();
 };
 
