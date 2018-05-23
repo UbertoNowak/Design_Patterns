@@ -15,6 +15,7 @@
 
 #include "Design_Patterns/Adapter.h"
 #include "Design_Patterns/Composite.h"
+#include "Design_Patterns/Decorator.h"
 
 using namespace std;
 
@@ -30,7 +31,15 @@ int main() {
 	// Structural Design Patterns
 	//----------------------------
 	//AdapterExample();
-	CompositeExample();
+	//CompositeExample();
+	DecoratorExample(); 	// TO DO
+	//ProxyExample(); 		// TO DO
+
+	// Behavioral Design Patterns
+	//----------------------------
+	//ObserverExmple();		//TO DO
+	//StrategyExample();	//TO DO
+	//Visitor();			//TO DO
 
 
 	cout << "Done" << endl;
