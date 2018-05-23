@@ -16,6 +16,7 @@
 #include "Design_Patterns/Adapter.h"
 #include "Design_Patterns/Composite.h"
 #include "Design_Patterns/Decorator.h"
+#include "Design_Patterns/Proxy.h"
 
 using namespace std;
 
@@ -32,8 +33,8 @@ int main() {
 	//----------------------------
 	//AdapterExample();
 	//CompositeExample();
-	DecoratorExample(); 	// TO DO
-	//ProxyExample(); 		// TO DO
+	//DecoratorExample();
+	//ProxyExample();
 
 	// Behavioral Design Patterns
 	//----------------------------
