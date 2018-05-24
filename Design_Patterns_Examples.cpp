@@ -19,6 +19,7 @@
 #include "Design_Patterns/Proxy.h"
 
 #include "Design_Patterns/Observer.h"
+#include "Design_Patterns/Strategy.h"
 
 using namespace std;
 
@@ -40,8 +41,8 @@ int main() {
 
 	// Behavioral Design Patterns
 	//----------------------------
-	ObserverExample();
-	//StrategyExample();	//TO DO
+	//ObserverExample();
+	StrategyExample();	//TO DO
 	//Visitor();			//TO DO
 
 
