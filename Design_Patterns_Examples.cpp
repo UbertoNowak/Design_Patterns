@@ -20,6 +20,7 @@
 
 #include "Design_Patterns/Observer.h"
 #include "Design_Patterns/Strategy.h"
+#include "Design_Patterns/Visitor.h"
 
 using namespace std;
 
@@ -42,9 +43,8 @@ int main() {
 	// Behavioral Design Patterns
 	//----------------------------
 	//ObserverExample();
-	StrategyExample();	//TO DO
-	//Visitor();			//TO DO
-
+	//StrategyExample();
+	VisitorExample();
 
 	cout << "Done" << endl;
 	return 0;
